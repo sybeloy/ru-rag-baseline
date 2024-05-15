@@ -4,4 +4,5 @@
 *pkl
 venv/
 faiss_index/
+tfidf_index/
 llama.cpp/

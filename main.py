@@ -62,10 +62,6 @@ if __name__ == "__main__":
 
     query = input("Добрый день! Чем я могу вам помочь?\n")
     while query:
-        # print(len(sparse_retriever.invoke(query)))
-        # print(len(dense_retriever.invoke(query)))
-        # print(len(ensemble_retriever.invoke(query)))
-        # print(retriever.invoke(query))
         rag_chain.invoke(query)
         print("\n", "-" * 100)
         query = input("Введите вопрос: ")
