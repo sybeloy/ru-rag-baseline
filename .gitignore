@@ -1,0 +1,7 @@
+*.txt
+*.gguf
+*.csv
+*pkl
+venv/
+faiss_index/
+llama.cpp/
