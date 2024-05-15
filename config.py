@@ -32,6 +32,7 @@ class Settings(BaseSettings):
     REPEAT_PENALTY: float
     F16_KV: bool
     LLAMA_VERBOSE: bool
+    N_CTX: int
 
     class Config:
         case_sensitive = False

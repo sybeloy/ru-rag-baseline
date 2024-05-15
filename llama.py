@@ -18,6 +18,6 @@ def load_llama():
         repeat_penalty=settings.REPEAT_PENALTY,
         f16_kv=settings.F16_KV,
         verbose=settings.LLAMA_VERBOSE,
-        n_ctx=2048
+        n_ctx=settings.N_CTX
     )
     return llm
